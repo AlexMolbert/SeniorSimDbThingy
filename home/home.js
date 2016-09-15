@@ -13,7 +13,11 @@ angular.module('myApp.home', ['ngRoute','firebase'])
 // Home controller
 .controller('HomeCtrl', ['$scope','$firebaseSimpleLogin',function($scope,$firebaseSimpleLogin) {
  <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+ 
+ //UPDATE FIREBASE LOGIN
+ //OLD VERSION
  var loginObj = $firebaseSimpleLogin(firebaseObj);
+ 
  <script>
   // Initialize Firebase
   var config = {
